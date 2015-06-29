@@ -4,10 +4,6 @@ exports.random = function(seed){
 	return m.random(seed);
 }
 
-
-
-
-
 /*
   I've wrapped Makoto Matsumoto and Takuji Nishimura's code in a namespace
   so it's better encapsulated. Now you can have multiple random number generators
